@@ -15,14 +15,14 @@ body {
     background: rgb(201, 228, 235);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 400px;
+    max-width: 450px;
     margin: 30px auto;
     padding: 20px;
     gap: 8px;
     border-radius: 8px;
 }
 .output {
-    background: rgb(23, 210, 207);
+    background: rgb(107, 236, 233);
     grid-column: 1 / 5;
     display: flex;
     justify-content: end;
@@ -30,6 +30,8 @@ body {
     font-size: 40px;
     padding: 20px;
     border-radius: 4px;
+    word-break: break-all;
+    word-wrap: break-word;
 }
 .calculator button {
     font-size: 20px;
@@ -49,5 +51,5 @@ body {
 }
 
 .calculator button:last-child {
-    background-color: rgb(23, 210, 207);
+    background-color: rgb(107, 236, 233);
 }
